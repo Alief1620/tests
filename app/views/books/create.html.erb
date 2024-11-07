@@ -1,0 +1,15 @@
+<h1>Create Book</h1>
+<%= form_with model: @book, local: true do |form| %>
+  <p>
+    <%= form.label :name_book %><br>
+    <%= form.text_field :name_book %>
+  </p>
+  <p>
+    <%= form.label :author %><br>
+    <%= form.text_field :author %>
+  </p>
+
+  <p>
+    <%= form.submit "Create Book" %>
+  </p>
+<% end %>
