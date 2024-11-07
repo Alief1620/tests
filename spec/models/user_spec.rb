@@ -10,11 +10,5 @@ describe User do
     it 'has a valid name' do
       expect(user.name).to eq('')
     end
-
-    #it do
-    #user = User.new(name: '')
-    #user.valid?
-    #user.errors[:name].should_not be_empty
-
     end
   end
